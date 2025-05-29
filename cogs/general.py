@@ -48,6 +48,9 @@ class SendMessages(commands.Cog):
 
     @app_commands.command(name='cg', description='Create a game and insert to the database')
     async def create_game(self, interaction: discord.Interaction):
+        # try to add the button view to the self.bot with a custom id (use formatted string for the custom id and make that id the game_id)
+        # self.bot.add_view(GameControlsView())
+        # https://chatgpt.com/c/6837c33c-1eb0-8002-b468-e91d9969c9cf
         pass
 
 
